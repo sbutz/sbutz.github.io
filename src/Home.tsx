@@ -36,7 +36,7 @@ export default function Home() {
                 .pauseFor(1000)
                 .changeDeleteSpeed(20)
                 .deleteAll()
-                .typeString(`Ready for <strong><span style="color: ${theme.palette.primary.main};">Your</span></strong> Project!`)
+                .typeString(`Ready for <strong><span style="color: ${theme.palette.primary.main};">Your</span></strong> next Project!`)
                 .start();
             }}
           />

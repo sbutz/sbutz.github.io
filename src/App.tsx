@@ -21,6 +21,7 @@ theme.typography.h1 = {
 };
 theme.typography.h3 = {
   fontFamily: theme.typography.fontFamily,
+  fontWeight: 'normal',
   fontSize: '1.2rem',
   [theme.breakpoints.up('md')]: {
     fontSize: '2.4rem',

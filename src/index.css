@@ -4,6 +4,5 @@ html, body {
 }
 
 body {
-    background: rgb(245,245,245);
-    background: radial-gradient(circle, rgba(245,245,245,1) 33%, rgba(222,222,222,1) 100%); 
+    background: radial-gradient(circle, rgba(250,250,250,1) 40%, rgba(222,222,222,1) 100%); 
 }

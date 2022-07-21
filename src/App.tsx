@@ -6,6 +6,11 @@ const theme = createTheme({
   typography: {
     fontFamily: "'JetBrains Mono', monospace",
   },
+  palette: {
+    primary: {
+      main: '#27ae60',
+    }
+  }
 });
 theme.typography.h1 = {
   fontFamily: theme.typography.fontFamily,
@@ -34,10 +39,10 @@ function App() {
             onInit={(typewriter) => {
               typewriter.typeString('Freelancer')
                 .pauseFor(500)
-                .typeString(' & <strong><span style="color: #27ae60;">Software Developer</span></strong>')
+                .typeString(` & <strong><span style="color: ${theme.palette.primary.main} ;">Software Developer</span></strong>`)
                 .pauseFor(500)
                 .deleteAll()
-                .typeString('Ready for <strong><span style="color: #27ae60;">Your</span></strong> Project!')
+                .typeString(`Ready for <strong><span style="color: ${theme.palette.primary.main};">Your</span></strong> Project!`)
                 .start();
             }}
           />

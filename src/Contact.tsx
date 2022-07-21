@@ -21,7 +21,7 @@ export default function Contact() {
 
             <Box>
                 <Typography variant="h4">
-                    Please feel free to contact me at <Link href="mailto:mail@butz.st">mail@sbutz.st</Link>.
+                    Please feel free to contact me at <Link href="mailto:mail@butz.st">mail@butz.st</Link>.
                 </Typography>
                 <Typography variant="body2" color="#848484" sx={{pt: 1}}>
                     Die Anfrage darf auch in Deutsch sein.
